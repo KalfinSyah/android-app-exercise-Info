@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Exercise Info App</string>
+    <string name="label_about_me">About Me</string>
+    <string name="label_back_to_main">Back To Main</string>
+    <string name="dummy">dummy text</string>
+    <string name="my_name">Kalfin Syah Kilau Mayya</string>
+    <string name="my_email">kalfinsyah.km@gmail.com</string>
+    <string name="label_how_to">How to Perform the Exercise</string>
+    <string name="label_share">Share</string>
+
+
+    <integer-array name="data_exercise_icon">
+        <item>@drawable/bench_press</item>
+        <item>@drawable/incline_bench_press</item>
+        <item>@drawable/decline_bench_press</item>
+        <item>@drawable/cable_fly</item>
+        <item>@drawable/pull_ups</item>
+        <item>@drawable/lat_pulldown</item>
+        <item>@drawable/seated_cable_row</item>
+        <item>@drawable/squat</item>
+        <item>@drawable/leg_extension</item>
+        <item>@drawable/lying_leg_curl</item>
+        <item>@drawable/wrist_curl</item>
+        <item>@drawable/reverse_barbell_curl</item>
+        <item>@drawable/sit_ups</item>
+    </integer-array>
+
+    <integer-array name="data_exercise_detail_img">
+        <item>@drawable/detail_bp</item>
+        <item>@drawable/detail_ibp</item>
+        <item>@drawable/detail_dbp</item>
+        <item>@drawable/detail_cf</item>
+        <item>@drawable/detail_pu</item>
+        <item>@drawable/detail_lpd</item>
+        <item>@drawable/detail_scr</item>
+        <item>@drawable/detail_squat</item>
+        <item>@drawable/detail_le</item>
+        <item>@drawable/detail_llc</item>
+        <item>@drawable/detail_wc</item>
+        <item>@drawable/detail_rbc</item>
+        <item>@drawable/detail_su</item>
+    </integer-array>
+
+    <string-array name="data_exercise_name">
+        <item>Bench Press</item>
+        <item>Incline Bench Press</item>
+        <item>Decline Bench Press</item>
+        <item>Cable Fly</item>
+        <item>Pull Ups</item>
+        <item>Lat Pulldown</item>
+        <item>Seated Cable Row</item>
+        <item>Squat</item>
+        <item>Leg Extension</item>
+        <item>Lying Leg Curls</item>
+        <item>Wrist Curls</item>
+        <item>Reverse Barbell Curl</item>
+        <item>Sit Ups</item>
+    </string-array>
+
+    <string-array name="data_exercise_target_muscle">
+        <item>Target Muscle : whole chest, tricep</item>
+        <item>Target Muscle : upper chest, middle chest, tricep, front shoulder</item>
+        <item>Target Muscle : lower chest, middle chest, tricep</item>
+        <item>Target Muscle : whole chest</item>
+        <item>Target Muscle : lats, forearms, biceps</item>
+        <item>Target Muscle : lats, forearms, biceps</item>
+        <item>Target Muscle : lower back, forearms, biceps</item>
+        <item>Target Muscle : quads, glutes, hamstrings, lower back, core</item>
+        <item>Target Muscle : quads</item>
+        <item>Target Muscle : hamstrings</item>
+        <item>Target Muscle : forearms</item>
+        <item>Target Muscle : forearms, biceps</item>
+        <item>Target Muscle : core</item>
+    </string-array>
+
+    <string-array name="data_exercise_difficulty">
+        <item>Difficulty : medium</item>
+        <item>Difficulty : medium</item>
+        <item>Difficulty : medium</item>
+        <item>Difficulty : medium</item>
+        <item>Difficulty : hard</item>
+        <item>Difficulty : easy</item>
+        <item>Difficulty : easy</item>
+        <item>Difficulty : hard</item>
+        <item>Difficulty : easy</item>
+        <item>Difficulty : easy</item>
+        <item>Difficulty : easy</item>
+        <item>Difficulty : easy</item>
+        <item>Difficulty : easy</item>
+    </string-array>
+
+    <string-array name="data_exercise_risk">
+        <item>Risk of Injury : high</item>
+        <item>Risk of Injury : high</item>
+        <item>Risk of Injury : high</item>
+        <item>Risk of Injury : low</item>
+        <item>Risk of Injury : low</item>
+        <item>Risk of Injury : low</item>
+        <item>Risk of Injury : low</item>
+        <item>Risk of Injury : high</item>
+        <item>Risk of Injury : low</item>
+        <item>Risk of Injury : low</item>
+        <item>Risk of Injury : low</item>
+        <item>Risk of Injury : medium</item>
+        <item>Risk of Injury : low</item>
+    </string-array>
+
+    <string-array name="data_exercise_desc">
+        <item>The bench press is a fundamental compound movement that primarily targets the pectoral muscles, along with secondary activation of the triceps and shoulders. It’s one of the most popular exercises for building upper body strength and muscle mass. Proper form is essential to avoid shoulder strain, and it offers great versatility as it can be performed with a barbell, dumbbells, or even machines.</item>
+        <item>The incline bench press is a variation of the traditional bench press, performed at an angle (usually 30–45 degrees), placing more emphasis on the upper chest and the front deltoids. This exercise is particularly useful for those looking to add more definition to the upper portion of the chest. Incline pressing also reduces the risk of shoulder injury compared to flat bench press while targeting the upper fibers of the chest.</item>
+        <item>The decline bench press targets the lower portion of the chest more effectively than the flat or incline press. By performing the exercise on a decline bench, the angle helps reduce stress on the shoulders and enhances activation of the lower pectoral muscles. This is an excellent movement for building a well-rounded chest, especially for those looking to create a fuller look at the bottom of their pecs.</item>
+        <item>Cable fly is an isolation movement designed to hit the chest from various angles, promoting a full range of motion. This exercise stretches the pectoral muscles and engages the entire chest, making it a great finishing movement after heavier pressing exercises. Cable flys allow for continuous tension on the muscles throughout the entire range, which can enhance muscle growth and sculpt the chest.</item>
+        <item>Pull-ups are a classic bodyweight exercise that primarily target the latissimus dorsi (lats), along with the biceps, forearms, and rear shoulders. This compound movement is crucial for building a wide and strong back. Mastering pull-ups can be challenging due to their reliance on body weight for resistance, but they are incredibly effective for upper body strength, improving posture, and increasing overall muscle mass in the back.</item>
+        <item>The lat pulldown machine mimics the movement of pull-ups but is more accessible, especially for those who are not yet strong enough to perform pull-ups. It primarily targets the lats, helping to build back width and improve upper body strength. The lat pulldown also engages the biceps and forearms as secondary muscles, making it a great beginner-friendly alternative to pull-ups.</item>
+        <item>Seated cable rows are a fundamental exercise for building a thick, muscular back. They target the middle and lower back muscles, along with the biceps and forearms. Proper form is key to preventing injury and ensuring that the back muscles, rather than the arms, are doing most of the work. This exercise helps improve posture and build overall back strength, making it a key movement in any strength training program.</item>
+        <item>Squats are often referred to as the king of all exercises due to their ability to target multiple muscle groups, including the quadriceps, hamstrings, glutes, and core. Squats also engage the lower back, making them an essential movement for overall strength and muscle development in the lower body. When performed correctly, squats enhance functional strength, athletic performance, and even core stability. Squatting with proper technique is crucial to avoiding injury, especially to the knees and lower back.</item>
+        <item>Leg extensions are an isolation exercise targeting the quadriceps. This machine-based movement allows for focused contraction of the quads, making it ideal for increasing muscle definition and size in the front of the thighs. Though effective for building the quads, it is important to use controlled movements to avoid placing excessive strain on the knees.</item>
+        <item>Lying leg curls are an excellent isolation exercise for targeting the hamstrings, which are often underdeveloped compared to the quads. This exercise helps build strength and size in the back of the legs, improving muscle balance and reducing the risk of injury. Hamstring strength is essential for athletic performance, especially in movements involving running, jumping, or squatting.</item>
+        <item>Wrist curls are a small but important exercise that focus on strengthening the forearms and improving grip strength. Grip strength plays a crucial role in many other exercises, such as deadlifts, pull-ups, and rows. Wrist curls target the flexor muscles in the forearm, helping to improve wrist stability and forearm endurance over time.</item>
+        <item>Reverse barbell curls primarily target the forearms and biceps, with a particular focus on the brachialis, a muscle that lies beneath the biceps. This exercise improves grip strength and helps in developing a fuller, more well-rounded arm appearance. Reverse curls also engage the muscles of the wrists and can help in improving overall arm strength.</item>
+        <item>Sit-ups are a staple core exercise that focuses on the abdominal muscles, helping to strengthen the core, improve posture, and support lower back health. Regular sit-ups can increase core stability and endurance, which is essential for both daily activities and athletic performance. It’s important to perform sit-ups with proper form to avoid strain on the neck and lower back.</item>
+    </string-array>
+
+    <string-array name="data_exercise_how_to_do_it">
+        <item>Lie on a bench with feet flat on the floor. Lower the barbell to your chest, then press it back up. Keep the elbows tucked at a 45-degree angle to avoid shoulder strain.</item>
+        <item>Set the bench at a 30–45 degree incline. Lower the barbell to your upper chest, then press it back up. Focus on contracting the chest at the top.</item>
+        <item>Set the bench at a decline angle. Lower the barbell to your lower chest and press up. Keep your core tight to prevent strain on the back.</item>
+        <item>Stand between the cables and grasp the handles. Pull the cables forward in a wide arc, squeezing your chest muscles at the center of the movement.</item>
+        <item>Grab a pull-up bar with an overhand grip. Pull yourself up until your chin is over the bar, then lower yourself back down slowly.</item>
+        <item>Sit down and grip the bar with a wide overhand grip. Pull the bar down to your chest, squeezing the lats, and return it slowly.</item>
+        <item>Sit at a cable row machine, gripping the handle. Pull the handle toward your torso while keeping your back straight, squeezing the shoulder blades together.</item>
+        <item>Stand with feet shoulder-width apart. Lower into a squat by bending the knees and hips, then push through your heels to stand back up.</item>
+        <item>Sit on a leg extension machine. Extend your legs until they\'re straight, then lower them back down slowly.</item>
+        <item>Lie face down on the leg curl machine. Curl your legs toward your glutes, then lower them slowly while keeping tension on the hamstrings.</item>
+        <item>Sit with your forearms resting on your thighs. Curl the wrists upward with a barbell, then slowly lower it back down.</item>
+        <item>Hold a barbell with a reverse grip. Curl the bar upward while keeping your elbows tucked close to your sides, then lower it slowly.</item>
+        <item>Lie on your back with your knees bent. Place your hands behind your head and curl your torso toward your knees, then lower back down with control.</item>
+    </string-array>
+</resources>

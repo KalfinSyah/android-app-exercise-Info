@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/forBackground"
+    tools:context=".ExerciseDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/forContainer"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/img_exercise_on_detail_section"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/dummy"
+                tools:ignore="ImageContrastCheck"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+
+                <TextView
+                    android:id="@+id/tv_difficulty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="@string/dummy"
+                    android:textColor="@color/forTitle"
+                    android:textSize="12sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="TextContrastCheck" />
+
+                <TextView
+                    android:id="@+id/tv_risk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="monospace"
+                    android:text="@string/dummy"
+                    android:textColor="@color/forTitle"
+                    android:textSize="12sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="TextContrastCheck" />
+
+                <TextView
+                    android:id="@+id/tv_target_muscle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="monospace"
+                    android:text="@string/dummy"
+                    android:textColor="@color/forTitle"
+                    android:textSize="12sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="TextContrastCheck" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/action_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/forShare"
+            android:fontFamily="monospace"
+            android:padding="16dp"
+            android:text="@string/label_share"
+            android:textColor="#232020"
+            android:textColorLink="@color/forShare"
+            android:textStyle="bold"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/baseline_share_24" />
+
+        <TextView
+            android:id="@+id/tv_name_exercise_on_detail_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/forTitleBg"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="@string/dummy"
+            android:textColor="@color/forTitle"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_desc_exercise_on_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/forBackground2"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="@string/dummy"
+            android:textColor="@color/forFont" />
+
+        <TextView
+            android:id="@+id/tv_label_how_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/forTitleBg"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="@string/label_how_to"
+            android:textColor="@color/forTitle"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_exercise_detail_how"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/dummy"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="219dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_how_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/forBackground2"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="@string/dummy"
+            android:textColor="@color/forFont"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="232dp"
+            tools:layout_editor_absoluteY="219dp" />
+
+    </LinearLayout>
+</ScrollView>

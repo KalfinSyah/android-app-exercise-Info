@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="forBackground">#1B1B1B</color>
+    <color name="forBackground2">#121212</color>
+    <color name="forContainer">#7FFFFFFF</color>
+    <color name="forTitle">#ffffff</color>
+    <color name="forTitleBg">#282828</color>
+    <color name="forFont">#F2F2F2</color>
+    <color name="forLogobar">#B6B6B6</color>
+    <color name="splash">#B6B6B6</color>
+    <color name="forShare">#92B493</color>
+
+
+    <color name="forPrimary">#6c848b</color>
+    <color name="forOnPrimary">#eff2f6</color>
+    <color name="forPrimaryContainer">#d2e7f0</color>
+    <color name="forOnPrimaryContainer">#131c20</color>
+    <color name="forSecondary">#586063</color>
+    <color name="forOnSecondary">#ffffff</color>
+    <color name="forSecondaryContainer">#dce4e8</color>
+    <color name="forOnSecondaryContainer">#161e20</color>
+    <color name="forTertiary">#5c5e6d</color>
+    <color name="forOnTertiary">#ffffff</color>
+    <color name="forTertiaryContainer">#e1e2ef</color>
+    <color name="forOnTertiaryContainer">#181a28</color>
+
+</resources>
